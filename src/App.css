@@ -1,0 +1,62 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* justify-self: center; */
+  /* text-align: center; */
+
+}
+.firstbigcontainer{
+  border: 5px solid black;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px 10px darkorange;
+  width: 50%;
+  height: 50%;
+  background-color: aqua;
+  color: darkred;
+  font-style: italic;
+/* margin-left: 20%; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.secoundbigcontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.haddingbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.age,.bmi,.weight,.height{
+  font-size: x-large;
+
+}
+.btn{
+  font-size: x-large;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  margin-left: 5px;
+}
+.btn1{
+  font-size: x-large;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  margin-left: 5px;
+}
+.p-msg{
+  color: darkred;
+}
+#heightbtn{
+  border-radius: 10px;
+}
+#weightbtn{
+  border-radius: 10px;
+}
+#agebtn{
+  border-radius: 10px;
+}
